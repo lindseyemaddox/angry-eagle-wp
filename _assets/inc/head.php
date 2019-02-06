@@ -42,9 +42,6 @@
 	<!-- Stylesheets -->
 	<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 	<link rel="stylesheet" href="/_assets/css/styles.css" media="screen">
-	<?php if ($smCurrentFolder && ($smCurrentFolder->getTitle() == 'Admin' || $smCurrentFolder->getTitle() == 'Guests')): ?>
-		<link rel="stylesheet" href="/smTemplate/css/ae-admin.css" type="text/css">
-	<?php endif; ?>
 
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Passion+One:700|Condiment|Source+Sans+Pro:400,300,400italic,600,700' rel='stylesheet' type='text/css'>

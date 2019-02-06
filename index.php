@@ -325,7 +325,7 @@
   });
 </script>
 
-<script src="/_assets/js/jquery.flexslider.js"></script>
+<script src="/_assets/js/jquery.flexslider.js?ckcachebust=340e0117e10a928f9546a7b540facc02"></script>
 
 <script type="text/javascript">
   $(document).ready(function() {
@@ -335,6 +335,6 @@
         });
   });
 </script>
-<script src="/_assets/js/jquery.fancybox.js"></script>
+<script src="/_assets/js/jquery.fancybox.js?ckcachebust=e6b7419862a3aa505ca66453b1dbd506"></script>
 
 <?php require_once('_assets/inc/footer.php'); // footer, close body and html?>

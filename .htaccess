@@ -40,7 +40,5 @@ Redirect 301 /species_seasons.html http://www.angryeagle.com/recreation/sportfis
 Redirect 301 /resources.php http://www.angryeagle.com/plan/prepare
 Redirect 301 /images/lodg31.jpg http://www.angryeagle.com/galleries
 Redirect 301 /trips.html http://www.angryeagle.com/plan/trip
-Redirect 301 /index.html http://www.angryeagle.com/
 
 </IfModule>
-

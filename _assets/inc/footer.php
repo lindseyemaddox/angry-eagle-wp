@@ -4,17 +4,8 @@
 
 				<h2 class="alt">How Remote Is <span itemprop="name">Angry Eagle</span>?</h3>
 
-				<p class="remote" property="description"><span>We're so remote we don't even have an address. Seriously. </span><br/><a href="/contact">Contact us for shipping details.</a></p>
-
 				<div class="map" itemscope itemtype="http://schema.org/Map">
 
-	                <picture class="picturefill">
-	                  <!--[if IE 9]><video style="display: none;"><![endif]-->
-	                  <source srcset="/_assets/img/map-large.png, /_assets/img/map-extralarge.png 2x" media="(min-width: 2500px)">
-	                  <source srcset="/_assets/img/map-medium.png, /_assets/img/map-extramedium.png 2x" media="(min-width: 1000px)">
-	                  <!--[if IE 9]></video><![endif]-->
-	                  <img srcset="/_assets/img/map-small.png, /_assets/img/map-medium.png 2x" alt="map of Alaska with a closer view of Angry Eagle Lodge &amp; Outfitters">
-	                </picture>
 
 				</div><!--right-col-->
 
@@ -44,7 +35,7 @@
 
 				<div class="right-col footer-links">
 
-					<p class="copy"><a href="/guests">Guest Login</a> | <a href="/careers/">Careers</a></p>
+					<p class="copy"><a href="/careers/">Careers</a></p>
 
 					<p class="copy">&copy;<?php echo date("Y"); ?> Rainbow Bay Resorts, LLC</p>
 
