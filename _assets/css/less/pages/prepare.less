@@ -1,0 +1,177 @@
+p.table-header {
+	text-transform: uppercase;
+	font-size: 1.3333333333333333em;
+	color: @brown;
+	text-align: center;
+	.ssp-semibold;
+}
+p.table-body {
+	text-transform: none;
+}
+
+
+
+/******** START Drag to Reveal module STYLES *********/
+div#product-reveal {
+	padding-bottom: 40px;
+	.container {
+		position: relative;
+	}
+	h1 {
+		float: left;
+		padding-top: 50px;
+		max-width: 43%;
+		white-space: nowrap;
+	}
+}
+
+.reveal-parts-container {
+	position: relative;
+	display: inline-block;
+	float: right;
+	.foreground {
+		width: 50%;
+		border-right: 1px solid @white;
+		position: absolute;
+		z-index: 101;
+		top: 0;
+		left: -10px;
+		.image-c {
+			overflow: hidden;
+			margin-left: 10px;
+			img {
+				width: inherit;
+			}
+		}
+		.ui-resizable-e {
+			width: 44px;
+			height: 43px;
+			background: url(/_assets/img/handle.png);
+			position: absolute;
+			right: -22px;
+			bottom: 0;
+		}
+
+		.ui-resizable-e:active, .ui-resizable-e:hover {
+			cursor: pointer;
+		}
+	}
+	.background {
+		position: relative;
+		width: 260px;
+		img {
+			width: 107%;
+		}
+	}
+	.bot-bar {
+		height: 12px;
+		background: url(/_assets/img/bot-bar.png) no-repeat;
+		width: 100%;
+		background-size: 100%;
+		margin-top: -29px;
+	}
+	.tip {
+		display: block;
+		text-align: center;
+		padding: 30px;
+		font-size: .8em;
+	}
+
+	ul.highlights {
+		li {
+			height: 28px;
+			width: 28px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			border-radius: 100%;
+			z-index: 105;
+			cursor: pointer;
+			transition: all .5s ease;
+			list-style-type: none;
+			img {
+				position: relative;
+				z-index: 100;
+			}
+			.ring {
+				height: 38px;
+				width: 38px;
+				border-radius: 100%;
+				position: absolute;
+				top: -5px;
+				left: -5px;
+				z-index: 99;
+			}
+		}
+
+		//fisherman markers
+		.b-thirteen {top: 4px;left: 82px;}
+		.b-one {top: -10px;left: 44px;}
+		.b-two {top: 23px;left: 76px;}
+		.b-three {top: 350px;left: 161px;}
+		.b-four {top: 430px;left: 190px;}
+		.b-five {top: 550px;left: 31px;}
+		.b-six {top: 143px;left: 152px;}
+		.b-seven {top: 93px;left: 50px;}
+		.b-eight {top: 150px;left: 15px;}
+		.b-nine {top: 294px;left: 70px;}
+		.b-ten {top: 176px;left: 60px;}
+		.b-eleven {top: 396px;left: 60px;}
+		.b-twelve {top: 540px;left: 54px;}
+	}
+}
+.reveal-parts-container.fisherman {
+	.foreground {
+		img {margin-left: 0;}
+	}
+	.background {
+		img {margin-left: 0;}
+	}
+}
+
+.feature-info {
+	position: absolute;
+	left: 200px;
+	top: 120px;
+	margin-top: 30px;
+	background: @white;
+	padding: 1%;
+	width: 100%;
+	max-width: 490px;
+	min-height: 260px;
+	z-index: 106;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	display: none;
+	ul {
+		padding: 0;
+	}
+	li {
+		display: none;
+		list-style-type: none;
+		padding: 0 30px 20px;
+	}
+	img {
+		width: inherit;
+		display: block;
+		text-align: center;
+		margin: 30px auto 50px;
+	}
+	span {
+		line-height: .8em;
+		font-size: 1em;
+		text-align: center;
+		.passion;
+		color: @brown;
+		text-transform: uppercase;
+	}
+}
+.highlight-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 104;
+}
+/******** END Drag to Reveal module STYLES *********/

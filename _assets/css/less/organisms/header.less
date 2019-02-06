@@ -1,0 +1,201 @@
+
+/******** START MAIN HEADER AND NAVIGATION STYLES *********/
+
+nav {
+	position: absolute;
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	z-index: 1;
+	top: 15px;
+	span#nav {
+		display: none;
+	}
+	div.logo {
+		margin-left: -84px;
+		display: inline-block;
+		width: 36%;
+		position: absolute;
+		img {
+			width: 100%;
+		}
+	}
+	> ul {
+		height: 50px;
+		margin-top: 40px;
+		display: inline-block;
+		width: 74%;
+		float: right;
+		&:before, &:after {
+			content: "";
+			background-color: #fff;
+			height: 1px;
+			display: block;
+			width: 100%;
+		}
+		li {
+			display: inline-block;
+			letter-spacing: .1em;
+			.passion;
+			text-transform: uppercase;
+			font-size: .69em;
+			margin-right: 30px;
+			vertical-align: top;
+			margin-top: 13px;
+			.transition;
+			&:last-child {
+				margin-right: 0;
+			}
+			span {
+				position: relative;
+				top: 2px;
+				left: 3px;
+				color: #fff;
+				cursor: pointer;
+				text-decoration: none;
+				.transition;
+				&.expanded {
+					.rotate(180deg);
+				}
+				&.drop-icon {
+					background: url(/_assets/img/collapsed.png) no-repeat center center transparent;
+					width: 40px;
+					height: 40px;
+					display: inline-block;
+					vertical-align: top;
+					top: -10px;
+					left: -5px;
+					margin-bottom: -10px;
+				}
+			}
+			&.drop {
+				margin-right: 4px;
+				>a:hover {
+					border-bottom: none;
+				}
+			}
+			>a {
+				text-decoration: none;
+				color: #fff;
+				&:hover {
+					border-bottom: 1px solid #fff;
+					text-decoration: none;
+				}
+			}
+			ul {
+				margin-top: 0;
+				padding-left: 0;
+				.transition;
+				height: 0;
+				overflow: hidden;
+				margin: 0;
+				padding: 0;
+				&:before, &:after {
+					content: "";
+					display: none;
+				}
+				li {
+					display: block;
+					margin: 10px 0 0 0;
+					font-size: 1em;
+					a:hover {
+						border-bottom: 1px solid #fff;
+					}
+					&:first-child {
+						margin-top: 0;
+					}
+				}
+				// &.collapsed {
+
+				// }
+				&.expanded {
+					height: 100px;
+					margin-bottom: 10px;
+					.transition;
+				}
+			}
+		}
+	}
+}
+
+.index-nav nav {
+	top: 10px;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	div.slider {
+		z-index: -1;
+	}
+	&.subheader {
+		height: 240px;
+	}
+	div.tag {
+		width: 100%;
+		position: absolute;
+		top: 40%;
+		&:before, &:after {
+			.passion;
+			content: "* * * * *";
+			margin: 0 auto;
+			display: block;
+			width: 60px;
+			color: #fff;
+			font-size: 1em;
+			line-height: 1.3em;
+		}
+		&:before {
+			line-height: .8em;
+		}
+		&.change {
+			p span {
+				letter-spacing: 0;
+			}
+		}
+		p {
+			.condiment;
+			color: #fff;
+			font-size: 2em;
+			line-height: 1.5em;
+			text-align: center;
+			margin-top: 20px;
+			span {
+				display: block;
+				.passion;
+				text-transform: uppercase;
+				letter-spacing: .2em;
+				font-size: 2.3em;
+				a {
+					color: #fff;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	div#topLodge {
+		background-color: @brown;
+		opacity: .5;
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		div#fullOpacity {
+			opacity: 1;
+			max-width: 1000px;
+			width: 80%;
+			margin: 0 auto;
+			position: relative;
+		}
+		img {
+			position: absolute;
+			right: 0;
+			top: 18px;
+		}
+	}
+	img.temp-image {
+		width: 100%;
+	}
+}
+
+/******** END MAIN HEADER AND NAVIGATION STYLES *********/

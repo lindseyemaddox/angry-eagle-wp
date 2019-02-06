@@ -1,0 +1,8179 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "2D7AF45F-C2DA-46B7-A2B8-512F616B62F8"
+		}
+	],
+"creatorBuild": "28905",
+"files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.htaccess",
+		"oF": 0
+		},
+	"/404.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/404.php",
+		"oF": 0
+		},
+	"/_assets/css/less/master.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 0,
+		"oAP": "/_assets/css/less/master.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/molecules/common.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/molecules/common.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/molecules/fonts.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/molecules/fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/molecules/functions.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/molecules/functions.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/molecules/molecules.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/molecules/molecules.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/organisms/chosen.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/organisms/chosen.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/organisms/fancybox.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/organisms/fancybox.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/organisms/fishslider.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/organisms/fishslider.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/organisms/flexslider.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/organisms/flexslider.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/organisms/footer.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/organisms/footer.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/organisms/header.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/organisms/header.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/organisms/isotope.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/organisms/isotope.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/organisms/video.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/organisms/video.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/activities.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/pages/activities.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/contact.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/pages/contact.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/faq.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/pages/faq.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/fleet.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/pages/fleet.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/index.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/pages/index.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/legacy.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/pages/legacy.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/lodges.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/pages/lodges.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/media.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/pages/media.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/plan.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/pages/plan.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/prepare.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/pages/prepare.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/rates.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/pages/rates.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/removed-index.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 0,
+		"oAP": "/_assets/css/less/pages/removed-index.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/pages/staff.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/pages/staff.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/less/responsive.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_assets/css/less/responsive.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/_assets/css/print.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/_assets/css/print-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/_assets/css/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/_assets/css/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/_assets/fonts/icomoon.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/fonts/icomoon.eot",
+		"oF": 0
+		},
+	"/_assets/fonts/icomoon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/fonts/icomoon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/fonts/icomoon.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/fonts/icomoon.ttf",
+		"oF": 0
+		},
+	"/_assets/fonts/icomoon.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/fonts/icomoon.woff",
+		"oF": 0
+		},
+	"/_assets/img/actcic-char-river.jpg": {
+		"ft": 16384,
+		"iS": 162604,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/actcic-char-river.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/adventure.jpg": {
+		"ft": 16384,
+		"iS": 160215,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/adventure.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/air.png": {
+		"ft": 32768,
+		"iS": 58932,
+		"oA": 0,
+		"oAP": "/_assets/img/air.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/apple-touch-57.png": {
+		"ft": 32768,
+		"iS": 2891,
+		"oA": 0,
+		"oAP": "/_assets/img/apple-touch-57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/article-bear.jpg": {
+		"ft": 16384,
+		"iS": 8797,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/article-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/article-igors.jpg": {
+		"ft": 16384,
+		"iS": 11456,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/article-igors.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/basket/basket-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 917970,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/basket/basket-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/basket/basket-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 237603,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/basket/basket-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/basket/basket-large.jpg": {
+		"ft": 16384,
+		"iS": 332234,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/basket/basket-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/basket/basket-medium.jpg": {
+		"ft": 16384,
+		"iS": 80555,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/basket/basket-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/basket/basket-small.jpg": {
+		"ft": 16384,
+		"iS": 27443,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/basket/basket-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/cooler/cooler-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 718115,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/cooler/cooler-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/cooler/cooler-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 160972,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/cooler/cooler-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/cooler/cooler-large.jpg": {
+		"ft": 16384,
+		"iS": 236486,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/cooler/cooler-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/cooler/cooler-medium.jpg": {
+		"ft": 16384,
+		"iS": 46497,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/cooler/cooler-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/cooler/cooler-small.jpg": {
+		"ft": 16384,
+		"iS": 14762,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/cooler/cooler-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/fishing/fishing-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 3828061,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/fishing/fishing-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/fishing/fishing-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 842752,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/fishing/fishing-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/fishing/fishing-large.jpg": {
+		"ft": 16384,
+		"iS": 1223966,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/fishing/fishing-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/fishing/fishing-medium.jpg": {
+		"ft": 16384,
+		"iS": 263963,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/fishing/fishing-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/fishing/fishing-small.jpg": {
+		"ft": 16384,
+		"iS": 77765,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/fishing/fishing-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/flyfishing/flyfishing-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 2721948,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/flyfishing/flyfishing-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/flyfishing/flyfishing-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 553187,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/flyfishing/flyfishing-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/flyfishing/flyfishing-large.jpg": {
+		"ft": 16384,
+		"iS": 829618,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/flyfishing/flyfishing-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/flyfishing/flyfishing-medium.jpg": {
+		"ft": 16384,
+		"iS": 150591,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/flyfishing/flyfishing-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/flyfishing/flyfishing-small.jpg": {
+		"ft": 16384,
+		"iS": 40190,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/flyfishing/flyfishing-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/hats/hats-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 785058,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/hats/hats-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/hats/hats-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 184623,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/hats/hats-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/hats/hats-large.jpg": {
+		"ft": 16384,
+		"iS": 267166,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/hats/hats-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/hats/hats-medium.jpg": {
+		"ft": 16384,
+		"iS": 55690,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/hats/hats-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/hats/hats-small.jpg": {
+		"ft": 16384,
+		"iS": 15881,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/hats/hats-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/line/line-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 784302,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/line/line-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/line/line-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 221137,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/line/line-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/line/line-large.jpg": {
+		"ft": 16384,
+		"iS": 302967,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/line/line-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/line/line-medium.jpg": {
+		"ft": 16384,
+		"iS": 83102,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/line/line-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/line/line-small.jpg": {
+		"ft": 16384,
+		"iS": 29814,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/line/line-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/moose/moose-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 2782172,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/moose/moose-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/moose/moose-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 538870,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/moose/moose-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/moose/moose-large.jpg": {
+		"ft": 16384,
+		"iS": 810178,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/moose/moose-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/moose/moose-medium.jpg": {
+		"ft": 16384,
+		"iS": 169244,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/moose/moose-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/moose/moose-small.jpg": {
+		"ft": 16384,
+		"iS": 54531,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/moose/moose-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/mountains/mountains-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 2868497,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/mountains/mountains-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/mountains/mountains-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 758903,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/mountains/mountains-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/mountains/mountains-large.jpg": {
+		"ft": 16384,
+		"iS": 1079661,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/mountains/mountains-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/mountains/mountains-medium.jpg": {
+		"ft": 16384,
+		"iS": 240600,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/mountains/mountains-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/mountains/mountains-small.jpg": {
+		"ft": 16384,
+		"iS": 66316,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/mountains/mountains-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/pole/pole-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 355118,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/pole/pole-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/pole/pole-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 102444,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/pole/pole-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/pole/pole-large.jpg": {
+		"ft": 16384,
+		"iS": 139444,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/pole/pole-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/pole/pole-medium.jpg": {
+		"ft": 16384,
+		"iS": 84456,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/pole/pole-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/pole/pole-small.jpg": {
+		"ft": 16384,
+		"iS": 29519,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/pole/pole-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/sunset/sunset-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 885079,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/sunset/sunset-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/sunset/sunset-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 214234,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/sunset/sunset-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/sunset/sunset-large.jpg": {
+		"ft": 16384,
+		"iS": 306573,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/sunset/sunset-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/sunset/sunset-medium.jpg": {
+		"ft": 16384,
+		"iS": 70249,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/sunset/sunset-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/sunset/sunset-small.jpg": {
+		"ft": 16384,
+		"iS": 22378,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/sunset/sunset-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/wall/wall-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 916369,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/wall/wall-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/wall/wall-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 222378,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/wall/wall-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/wall/wall-large.jpg": {
+		"ft": 16384,
+		"iS": 326604,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/wall/wall-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/wall/wall-medium.jpg": {
+		"ft": 16384,
+		"iS": 63131,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/wall/wall-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/backgrounds/wall/wall-small.jpg": {
+		"ft": 16384,
+		"iS": 17746,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/backgrounds/wall/wall-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/bg_direction_nav-fishslider.png": {
+		"ft": 32768,
+		"iS": 2224,
+		"oA": 0,
+		"oAP": "/_assets/img/bg_direction_nav-fishslider.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/bg_direction_nav.png": {
+		"ft": 32768,
+		"iS": 2326,
+		"oA": 0,
+		"oAP": "/_assets/img/bg_direction_nav.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/blank.gif": {
+		"ft": 4194304,
+		"iS": 43,
+		"oA": 0,
+		"oAP": "/_assets/img/blank.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/_assets/img/bot-bar.png": {
+		"ft": 32768,
+		"iS": 1177,
+		"oA": 0,
+		"oAP": "/_assets/img/bot-bar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/chosen-sprite.png": {
+		"ft": 32768,
+		"iS": 646,
+		"oA": 0,
+		"oAP": "/_assets/img/chosen-sprite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/chosen-sprite@2x.png": {
+		"ft": 32768,
+		"iS": 872,
+		"oA": 0,
+		"oAP": "/_assets/img/chosen-sprite@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/collapsed.gif": {
+		"ft": 4194304,
+		"iS": 79,
+		"oA": 0,
+		"oAP": "/_assets/img/collapsed.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/_assets/img/collapsed.png": {
+		"ft": 32768,
+		"iS": 1816,
+		"oA": 0,
+		"oAP": "/_assets/img/collapsed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/expanded.gif": {
+		"ft": 4194304,
+		"iS": 74,
+		"oA": 0,
+		"oAP": "/_assets/img/expanded.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/_assets/img/expanded.png": {
+		"ft": 32768,
+		"iS": 1824,
+		"oA": 0,
+		"oAP": "/_assets/img/expanded.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/facebook.png": {
+		"ft": 32768,
+		"iS": 3862,
+		"oA": 0,
+		"oAP": "/_assets/img/facebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/fancybox_loading.gif": {
+		"ft": 4194304,
+		"iS": 6567,
+		"oA": 0,
+		"oAP": "/_assets/img/fancybox_loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/_assets/img/fancybox_loading@2x.gif": {
+		"ft": 4194304,
+		"iS": 13984,
+		"oA": 0,
+		"oAP": "/_assets/img/fancybox_loading@2x.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/_assets/img/fancybox_overlay.png": {
+		"ft": 32768,
+		"iS": 1003,
+		"oA": 0,
+		"oAP": "/_assets/img/fancybox_overlay.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/fancybox_sprite.png": {
+		"ft": 32768,
+		"iS": 2888,
+		"oA": 0,
+		"oAP": "/_assets/img/fancybox_sprite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/fancybox_sprite@2x.png": {
+		"ft": 32768,
+		"iS": 5602,
+		"oA": 0,
+		"oAP": "/_assets/img/fancybox_sprite@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/img/favicon.ico",
+		"oF": 0
+		},
+	"/_assets/img/featured-fisherman.jpg": {
+		"ft": 16384,
+		"iS": 318667,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/featured-fisherman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fisherman-over.png": {
+		"ft": 32768,
+		"iS": 50034,
+		"oA": 0,
+		"oAP": "/_assets/img/fisherman-over.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/fisherman-under.png": {
+		"ft": 32768,
+		"iS": 70896,
+		"oA": 0,
+		"oAP": "/_assets/img/fisherman-under.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/fishing.jpg": {
+		"ft": 16384,
+		"iS": 61471,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fishing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fixed-bears.jpg": {
+		"ft": 16384,
+		"iS": 197063,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fixed-bears.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fixed-fish.jpg": {
+		"ft": 16384,
+		"iS": 171352,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fixed-fish.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fixed-fish2.jpg": {
+		"ft": 16384,
+		"iS": 174567,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fixed-fish2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fixed-fleet.jpg": {
+		"ft": 16384,
+		"iS": 395682,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fixed-fleet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fixed-legacy.jpg": {
+		"ft": 16384,
+		"iS": 590085,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fixed-legacy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fixed-lodge.jpg": {
+		"ft": 16384,
+		"iS": 138165,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fixed-lodge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fixed-media.jpg": {
+		"ft": 16384,
+		"iS": 237789,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fixed-media.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fixed-plane.jpg": {
+		"ft": 16384,
+		"iS": 309785,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fixed-plane.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fixed-plane2.jpg": {
+		"ft": 16384,
+		"iS": 222600,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fixed-plane2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fleet-beaver.jpg": {
+		"ft": 16384,
+		"iS": 20505,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fleet-beaver.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fleet-cessna.jpg": {
+		"ft": 16384,
+		"iS": 15353,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fleet-cessna.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fleet-gator.jpg": {
+		"ft": 16384,
+		"iS": 22729,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fleet-gator.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fleet-harbercraft.jpg": {
+		"ft": 16384,
+		"iS": 16305,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fleet-harbercraft.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fleet-jetboat.jpg": {
+		"ft": 16384,
+		"iS": 19925,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fleet-jetboat.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/fleet-riverhawk.jpg": {
+		"ft": 16384,
+		"iS": 21017,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/fleet-riverhawk.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/arctic-char-big.jpg": {
+		"ft": 16384,
+		"iS": 163431,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/arctic-char-big.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/arctic-char-lake.jpg": {
+		"ft": 16384,
+		"iS": 194112,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/arctic-char-lake.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/arctic-char-motor.jpg": {
+		"ft": 16384,
+		"iS": 142188,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/arctic-char-motor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/arctic-char-powerlifting.jpg": {
+		"ft": 16384,
+		"iS": 193996,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/arctic-char-powerlifting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/arctic-char-reel.jpg": {
+		"ft": 16384,
+		"iS": 151745,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/arctic-char-reel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/arctic-char-rocks.jpg": {
+		"ft": 16384,
+		"iS": 191607,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/arctic-char-rocks.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/arctic-char-speckled.jpg": {
+		"ft": 16384,
+		"iS": 288389,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/arctic-char-speckled.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/arctic-char-stream.jpg": {
+		"ft": 16384,
+		"iS": 153970,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/arctic-char-stream.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/bear-two-cubs.jpg": {
+		"ft": 16384,
+		"iS": 318159,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/bear-two-cubs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/bear-with-cubs.jpg": {
+		"ft": 16384,
+		"iS": 312522,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/bear-with-cubs.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/bears-playing.jpg": {
+		"ft": 16384,
+		"iS": 386286,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/bears-playing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/black-bear-in-grass.jpg": {
+		"ft": 16384,
+		"iS": 367168,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/black-bear-in-grass.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/black-bear.jpg": {
+		"ft": 16384,
+		"iS": 266851,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/black-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/brown-bear-with-fish.jpg": {
+		"ft": 16384,
+		"iS": 261924,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/brown-bear-with-fish.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/brown-bear.jpg": {
+		"ft": 16384,
+		"iS": 450568,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/brown-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/chum-salmon-alaska.jpg": {
+		"ft": 16384,
+		"iS": 186276,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/chum-salmon-alaska.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/chum-salmon-big.jpg": {
+		"ft": 16384,
+		"iS": 184577,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/chum-salmon-big.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/chum-salmon-boat.jpg": {
+		"ft": 16384,
+		"iS": 119514,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/chum-salmon-boat.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/chum-salmon-girls.jpg": {
+		"ft": 16384,
+		"iS": 165875,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/chum-salmon-girls.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/chum-salmon-high.jpg": {
+		"ft": 16384,
+		"iS": 141333,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/chum-salmon-high.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/chum-salmon-lure.jpg": {
+		"ft": 16384,
+		"iS": 92076,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/chum-salmon-lure.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/chum-salmon-mouth.jpg": {
+		"ft": 16384,
+		"iS": 100989,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/chum-salmon-mouth.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/chum-salmon-zebra.jpg": {
+		"ft": 16384,
+		"iS": 108457,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/chum-salmon-zebra.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/eagle-perch.jpg": {
+		"ft": 16384,
+		"iS": 99347,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/eagle-perch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/eagle.jpg": {
+		"ft": 16384,
+		"iS": 104345,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/eagle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/fox.jpg": {
+		"ft": 16384,
+		"iS": 308504,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/fox.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/grayling-family.jpg": {
+		"ft": 16384,
+		"iS": 130779,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/grayling-family.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/grayling-fin.jpg": {
+		"ft": 16384,
+		"iS": 221768,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/grayling-fin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/grayling-jerry.jpg": {
+		"ft": 16384,
+		"iS": 182650,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/grayling-jerry.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/grayling-line.jpg": {
+		"ft": 16384,
+		"iS": 186618,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/grayling-line.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/grayling-pigtails.jpg": {
+		"ft": 16384,
+		"iS": 94388,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/grayling-pigtails.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/grayling-pole.jpg": {
+		"ft": 16384,
+		"iS": 147741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/grayling-pole.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/grayling-water.jpg": {
+		"ft": 16384,
+		"iS": 172373,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/grayling-water.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/grayling-woman.jpg": {
+		"ft": 16384,
+		"iS": 176096,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/grayling-woman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/grayling.jpg": {
+		"ft": 16384,
+		"iS": 84748,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/grayling.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/king-salmon-couple.jpg": {
+		"ft": 16384,
+		"iS": 135904,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/king-salmon-couple.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/king-salmon-giant.jpg": {
+		"ft": 16384,
+		"iS": 127212,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/king-salmon-giant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/king-salmon-grass.jpg": {
+		"ft": 16384,
+		"iS": 224733,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/king-salmon-grass.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/king-salmon-igor.jpg": {
+		"ft": 16384,
+		"iS": 126445,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/king-salmon-igor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/king-salmon-river.jpg": {
+		"ft": 16384,
+		"iS": 164689,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/king-salmon-river.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/king-salmon-silver.jpg": {
+		"ft": 16384,
+		"iS": 150065,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/king-salmon-silver.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/king-salmon-speckled.jpg": {
+		"ft": 16384,
+		"iS": 208027,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/king-salmon-speckled.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/king-salmon-two.jpg": {
+		"ft": 16384,
+		"iS": 202634,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/king-salmon-two.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/king-salmon-waders.jpg": {
+		"ft": 16384,
+		"iS": 126966,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/king-salmon-waders.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-clark-aerial.jpg": {
+		"ft": 16384,
+		"iS": 181564,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-clark-aerial.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-clark-airplane.jpg": {
+		"ft": 16384,
+		"iS": 125093,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-clark-airplane.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-clark-fireweed.jpg": {
+		"ft": 16384,
+		"iS": 273514,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-clark-fireweed.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-clark-fishing.jpg": {
+		"ft": 16384,
+		"iS": 164275,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-clark-fishing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-clark-frozen.jpg": {
+		"ft": 16384,
+		"iS": 97285,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-clark-frozen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-clark-ice.jpg": {
+		"ft": 16384,
+		"iS": 130217,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-clark-ice.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-clark-mirror.jpg": {
+		"ft": 16384,
+		"iS": 100877,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-clark-mirror.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-clark-panoramic.jpg": {
+		"ft": 16384,
+		"iS": 175547,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-clark-panoramic.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-clark-shore.jpg": {
+		"ft": 16384,
+		"iS": 98750,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-clark-shore.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-clark-snow.jpg": {
+		"ft": 16384,
+		"iS": 149148,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-clark-snow.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-clark-tributary.jpg": {
+		"ft": 16384,
+		"iS": 161453,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-clark-tributary.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-clark-volcano.jpg": {
+		"ft": 16384,
+		"iS": 109654,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-clark-volcano.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-above.jpg": {
+		"ft": 16384,
+		"iS": 471466,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-above.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-aerial.jpg": {
+		"ft": 16384,
+		"iS": 402359,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-aerial.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-airplane.jpg": {
+		"ft": 16384,
+		"iS": 395779,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-airplane.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-bear.jpg": {
+		"ft": 16384,
+		"iS": 501140,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-clouds.jpg": {
+		"ft": 16384,
+		"iS": 130857,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-clouds.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-fall.jpg": {
+		"ft": 16384,
+		"iS": 516697,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-fall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-fireweed.jpg": {
+		"ft": 16384,
+		"iS": 501935,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-fireweed.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-flowers.jpg": {
+		"ft": 16384,
+		"iS": 411354,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-flowers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-frozen.jpg": {
+		"ft": 16384,
+		"iS": 301944,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-frozen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-mirror.jpg": {
+		"ft": 16384,
+		"iS": 289634,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-mirror.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-mountain.jpg": {
+		"ft": 16384,
+		"iS": 298188,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-mountain.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-mountains.jpg": {
+		"ft": 16384,
+		"iS": 341265,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-mountains.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-plane.jpg": {
+		"ft": 16384,
+		"iS": 251048,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-plane.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-seaplane.jpg": {
+		"ft": 16384,
+		"iS": 424880,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-seaplane.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-shallow.jpg": {
+		"ft": 16384,
+		"iS": 449923,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-shallow.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-silouette.jpg": {
+		"ft": 16384,
+		"iS": 247068,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-silouette.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-trees.jpg": {
+		"ft": 16384,
+		"iS": 509251,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-trees.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-tributary.jpg": {
+		"ft": 16384,
+		"iS": 619963,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-tributary.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-iliamna-volcano.jpg": {
+		"ft": 16384,
+		"iS": 221490,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-iliamna-volcano.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-trout-airplane.jpg": {
+		"ft": 16384,
+		"iS": 134493,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-trout-airplane.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-trout-alaska.jpg": {
+		"ft": 16384,
+		"iS": 94496,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-trout-alaska.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-trout-beautiful.jpg": {
+		"ft": 16384,
+		"iS": 182023,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-trout-beautiful.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-trout-catch.jpg": {
+		"ft": 16384,
+		"iS": 101330,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-trout-catch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-trout-lake.jpg": {
+		"ft": 16384,
+		"iS": 125790,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-trout-lake.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-trout-line.jpg": {
+		"ft": 16384,
+		"iS": 100299,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-trout-line.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-trout-mouth.jpg": {
+		"ft": 16384,
+		"iS": 119922,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-trout-mouth.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-trout-rocks.jpg": {
+		"ft": 16384,
+		"iS": 202450,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-trout-rocks.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-trout-shore.jpg": {
+		"ft": 16384,
+		"iS": 100299,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-trout-shore.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/lake-trout-waders.jpg": {
+		"ft": 16384,
+		"iS": 73073,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/lake-trout-waders.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/mink-on-deck.jpg": {
+		"ft": 16384,
+		"iS": 181343,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/mink-on-deck.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/mink.jpg": {
+		"ft": 16384,
+		"iS": 202745,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/mink.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/moose-with-young.jpg": {
+		"ft": 16384,
+		"iS": 254850,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/moose-with-young.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/moose.jpg": {
+		"ft": 16384,
+		"iS": 298000,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/moose.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/northern-pike-big.jpg": {
+		"ft": 16384,
+		"iS": 140849,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/northern-pike-big.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/northern-pike-couple.jpg": {
+		"ft": 16384,
+		"iS": 130791,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/northern-pike-couple.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/northern-pike-heavy.jpg": {
+		"ft": 16384,
+		"iS": 122899,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/northern-pike-heavy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/northern-pike-huge.jpg": {
+		"ft": 16384,
+		"iS": 156532,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/northern-pike-huge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/northern-pike-igor.jpg": {
+		"ft": 16384,
+		"iS": 185716,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/northern-pike-igor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/northern-pike-jerry.jpg": {
+		"ft": 16384,
+		"iS": 176187,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/northern-pike-jerry.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/northern-pike-lake.jpg": {
+		"ft": 16384,
+		"iS": 110729,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/northern-pike-lake.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/northern-pike-long.jpg": {
+		"ft": 16384,
+		"iS": 115786,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/northern-pike-long.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/northern-pike-river.jpg": {
+		"ft": 16384,
+		"iS": 157693,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/northern-pike-river.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/pink-salmon-alaska.jpg": {
+		"ft": 16384,
+		"iS": 184615,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/pink-salmon-alaska.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/pink-salmon-boy.jpg": {
+		"ft": 16384,
+		"iS": 118823,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/pink-salmon-boy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/pink-salmon-child.jpg": {
+		"ft": 16384,
+		"iS": 101527,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/pink-salmon-child.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/pink-salmon-couple.jpg": {
+		"ft": 16384,
+		"iS": 181502,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/pink-salmon-couple.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/pink-salmon-girl.jpg": {
+		"ft": 16384,
+		"iS": 201809,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/pink-salmon-girl.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/pink-salmon-gray.jpg": {
+		"ft": 16384,
+		"iS": 160314,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/pink-salmon-gray.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/pink-salmon-iliamna.jpg": {
+		"ft": 16384,
+		"iS": 192176,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/pink-salmon-iliamna.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/pink-salmon-old.jpg": {
+		"ft": 16384,
+		"iS": 159848,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/pink-salmon-old.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/pink-salmon-waders.jpg": {
+		"ft": 16384,
+		"iS": 139922,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/pink-salmon-waders.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/rainbow-trout-alaska.jpg": {
+		"ft": 16384,
+		"iS": 126352,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/rainbow-trout-alaska.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/rainbow-trout-bristolbay.jpg": {
+		"ft": 16384,
+		"iS": 164016,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/rainbow-trout-bristolbay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/rainbow-trout-catch.jpg": {
+		"ft": 16384,
+		"iS": 120606,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/rainbow-trout-catch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/rainbow-trout-closeup.jpg": {
+		"ft": 16384,
+		"iS": 116580,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/rainbow-trout-closeup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/rainbow-trout-couple.jpg": {
+		"ft": 16384,
+		"iS": 141683,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/rainbow-trout-couple.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/rainbow-trout-huge.jpg": {
+		"ft": 16384,
+		"iS": 134428,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/rainbow-trout-huge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/rainbow-trout-igor.jpg": {
+		"ft": 16384,
+		"iS": 171999,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/rainbow-trout-igor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/rainbow-trout-shiny.jpg": {
+		"ft": 16384,
+		"iS": 171137,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/rainbow-trout-shiny.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/rainbow-trout-speckled.jpg": {
+		"ft": 16384,
+		"iS": 208831,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/rainbow-trout-speckled.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/rainbow-trout-translucent.jpg": {
+		"ft": 16384,
+		"iS": 178201,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/rainbow-trout-translucent.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/rainbow-trout-woman.jpg": {
+		"ft": 16384,
+		"iS": 142392,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/rainbow-trout-woman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/silver-salmon-alaska.jpg": {
+		"ft": 16384,
+		"iS": 218660,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/silver-salmon-alaska.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/silver-salmon-boy.jpg": {
+		"ft": 16384,
+		"iS": 195076,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/silver-salmon-boy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/silver-salmon-fish.jpg": {
+		"ft": 16384,
+		"iS": 136874,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/silver-salmon-fish.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/silver-salmon-mountains.jpg": {
+		"ft": 16384,
+		"iS": 185008,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/silver-salmon-mountains.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/silver-salmon-pole.jpg": {
+		"ft": 16384,
+		"iS": 166393,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/silver-salmon-pole.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/silver-salmon-red.jpg": {
+		"ft": 16384,
+		"iS": 140055,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/silver-salmon-red.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/silver-salmon-shore.jpg": {
+		"ft": 16384,
+		"iS": 301138,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/silver-salmon-shore.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/silver-salmon-stream.jpg": {
+		"ft": 16384,
+		"iS": 180236,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/silver-salmon-stream.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/silver-salmon-white.jpg": {
+		"ft": 16384,
+		"iS": 109055,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/silver-salmon-white.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/sockeye-salmon-alaska.jpg": {
+		"ft": 16384,
+		"iS": 106214,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/sockeye-salmon-alaska.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/sockeye-salmon-bristolbay.jpg": {
+		"ft": 16384,
+		"iS": 175370,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/sockeye-salmon-bristolbay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/sockeye-salmon-clear.jpg": {
+		"ft": 16384,
+		"iS": 197879,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/sockeye-salmon-clear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/sockeye-salmon-group.jpg": {
+		"ft": 16384,
+		"iS": 164723,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/sockeye-salmon-group.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/sockeye-salmon-red.jpg": {
+		"ft": 16384,
+		"iS": 134503,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/sockeye-salmon-red.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/sockeye-salmon-spawning.jpg": {
+		"ft": 16384,
+		"iS": 202196,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/sockeye-salmon-spawning.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/sockeye-salmon-thrash.jpg": {
+		"ft": 16384,
+		"iS": 161632,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/sockeye-salmon-thrash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/sockeye-salmon-water.jpg": {
+		"ft": 16384,
+		"iS": 117942,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/sockeye-salmon-water.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/sockeye-salmon-woman.jpg": {
+		"ft": 16384,
+		"iS": 188711,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/sockeye-salmon-woman.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/swim-bear.jpg": {
+		"ft": 16384,
+		"iS": 256902,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/swim-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/swim-mink.jpg": {
+		"ft": 16384,
+		"iS": 253783,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/swim-mink.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/galleries/young-bears.jpg": {
+		"ft": 16384,
+		"iS": 368693,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/galleries/young-bears.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/gear-cap.png": {
+		"ft": 32768,
+		"iS": 8195,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-cap.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/gear-cotton-socks.png": {
+		"ft": 32768,
+		"iS": 8811,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-cotton-socks.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/gear-down-jacket.png": {
+		"ft": 32768,
+		"iS": 12472,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-down-jacket.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/gear-gloves.png": {
+		"ft": 32768,
+		"iS": 14565,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-gloves.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/gear-hat.png": {
+		"ft": 32768,
+		"iS": 5001,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-hat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/gear-jeans.png": {
+		"ft": 32768,
+		"iS": 9994,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-jeans.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/gear-long-johns.png": {
+		"ft": 32768,
+		"iS": 9135,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-long-johns.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/gear-long-sleeved.png": {
+		"ft": 32768,
+		"iS": 7811,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-long-sleeved.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/gear-rain-suit.png": {
+		"ft": 32768,
+		"iS": 8550,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-rain-suit.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/gear-shoes.png": {
+		"ft": 32768,
+		"iS": 14358,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-shoes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/gear-sunglasses.png": {
+		"ft": 32768,
+		"iS": 6262,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-sunglasses.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/gear-wool-socks.png": {
+		"ft": 32768,
+		"iS": 9826,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-wool-socks.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/gear-wool-sweater.png": {
+		"ft": 32768,
+		"iS": 12283,
+		"oA": 0,
+		"oAP": "/_assets/img/gear-wool-sweater.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/google.png": {
+		"ft": 32768,
+		"iS": 4445,
+		"oA": 0,
+		"oAP": "/_assets/img/google.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/handle.png": {
+		"ft": 32768,
+		"iS": 2661,
+		"oA": 0,
+		"oAP": "/_assets/img/handle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/header.jpg": {
+		"ft": 16384,
+		"iS": 26037,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/highlight-big.png": {
+		"ft": 32768,
+		"iS": 444,
+		"oA": 0,
+		"oAP": "/_assets/img/highlight-big.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/highlight.png": {
+		"ft": 32768,
+		"iS": 746,
+		"oA": 0,
+		"oAP": "/_assets/img/highlight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-arctic-char.png": {
+		"ft": 32768,
+		"iS": 27383,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-arctic-char.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-arctic-char.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/img/icon-arctic-char.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/img/icon-arctic-grayling.png": {
+		"ft": 32768,
+		"iS": 45775,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-arctic-grayling.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-arctic-grayling.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/img/icon-arctic-grayling.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/img/icon-beaver.png": {
+		"ft": 32768,
+		"iS": 5333,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-beaver.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-cessna.png": {
+		"ft": 32768,
+		"iS": 5917,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-cessna.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-chum-salmon.png": {
+		"ft": 32768,
+		"iS": 41556,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-chum-salmon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-chum-salmon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/img/icon-chum-salmon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/img/icon-gator.png": {
+		"ft": 32768,
+		"iS": 6801,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-gator.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-halibut.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/img/icon-halibut.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/img/icon-jetboat.png": {
+		"ft": 32768,
+		"iS": 3809,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-jetboat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-king-salmon.png": {
+		"ft": 32768,
+		"iS": 24911,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-king-salmon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-king-salmon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/img/icon-king-salmon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/img/icon-kingfisher.png": {
+		"ft": 32768,
+		"iS": 4964,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-kingfisher.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-kubota.png": {
+		"ft": 32768,
+		"iS": 4870,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-kubota.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-lake-trout.png": {
+		"ft": 32768,
+		"iS": 51682,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-lake-trout.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-northern-pike.png": {
+		"ft": 32768,
+		"iS": 33941,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-northern-pike.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-northern-pike.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/img/icon-northern-pike.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/img/icon-pink-salmon.png": {
+		"ft": 32768,
+		"iS": 26567,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-pink-salmon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-pink-salmon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/img/icon-pink-salmon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/img/icon-rainbow-trout.png": {
+		"ft": 32768,
+		"iS": 45827,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-rainbow-trout.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-rainbow-trout.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/img/icon-rainbow-trout.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/img/icon-silver-salmon.png": {
+		"ft": 32768,
+		"iS": 35753,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-silver-salmon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-silver-salmon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/img/icon-silver-salmon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/img/icon-sockeye-salmon.png": {
+		"ft": 32768,
+		"iS": 21819,
+		"oA": 0,
+		"oAP": "/_assets/img/icon-sockeye-salmon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/icon-sockeye-salmon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/img/icon-sockeye-salmon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/img/inset-bear.jpg": {
+		"ft": 16384,
+		"iS": 8797,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/inset-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/inset-moose.jpg": {
+		"ft": 16384,
+		"iS": 49486,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/inset-moose.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/line1.gif": {
+		"ft": 4194304,
+		"iS": 56,
+		"oA": 0,
+		"oAP": "/_assets/img/line1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/_assets/img/line2.gif": {
+		"ft": 4194304,
+		"iS": 91,
+		"oA": 0,
+		"oAP": "/_assets/img/line2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/_assets/img/lodges-angry-eagle1.jpg": {
+		"ft": 16384,
+		"iS": 95311,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-angry-eagle1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges-angry-eagle2.jpg": {
+		"ft": 16384,
+		"iS": 106475,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-angry-eagle2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges-angry-eagle3.jpg": {
+		"ft": 16384,
+		"iS": 91852,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-angry-eagle3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges-angry-eagle4.jpg": {
+		"ft": 16384,
+		"iS": 133419,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-angry-eagle4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges-angry-eagle5.jpg": {
+		"ft": 16384,
+		"iS": 103101,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-angry-eagle5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges-bedroom.jpg": {
+		"ft": 16384,
+		"iS": 272489,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-bedroom.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges-dining.jpg": {
+		"ft": 16384,
+		"iS": 216524,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-dining.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges-eagles-peak1.jpg": {
+		"ft": 16384,
+		"iS": 118599,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-eagles-peak1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges-eagles-peak2.jpg": {
+		"ft": 16384,
+		"iS": 145510,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-eagles-peak2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges-eagles-peak3.jpg": {
+		"ft": 16384,
+		"iS": 116799,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-eagles-peak3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges-eagles-peak4.jpg": {
+		"ft": 16384,
+		"iS": 130229,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-eagles-peak4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges-eagles-peak5.jpg": {
+		"ft": 16384,
+		"iS": 143486,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-eagles-peak5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges-overhead.jpg": {
+		"ft": 16384,
+		"iS": 346375,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges-overhead.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/lodges.jpg": {
+		"ft": 16384,
+		"iS": 106291,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/lodges.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/logo-angry-eagle.png": {
+		"ft": 32768,
+		"iS": 33173,
+		"oA": 0,
+		"oAP": "/_assets/img/logo-angry-eagle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/logo-eagles-peak.png": {
+		"ft": 32768,
+		"iS": 14024,
+		"oA": 0,
+		"oAP": "/_assets/img/logo-eagles-peak.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/logo-email.png": {
+		"ft": 32768,
+		"iS": 13881,
+		"oA": 0,
+		"oAP": "/_assets/img/logo-email.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/logo-field-stream.png": {
+		"ft": 32768,
+		"iS": 5447,
+		"oA": 0,
+		"oAP": "/_assets/img/logo-field-stream.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/logo.png": {
+		"ft": 32768,
+		"iS": 8861,
+		"oA": 0,
+		"oAP": "/_assets/img/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/map-extralarge.png": {
+		"ft": 32768,
+		"iS": 248928,
+		"oA": 0,
+		"oAP": "/_assets/img/map-extralarge.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/map-extramedium.png": {
+		"ft": 32768,
+		"iS": 339685,
+		"oA": 0,
+		"oAP": "/_assets/img/map-extramedium.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/map-large.png": {
+		"ft": 32768,
+		"iS": 339685,
+		"oA": 0,
+		"oAP": "/_assets/img/map-large.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/map-medium.png": {
+		"ft": 32768,
+		"iS": 146143,
+		"oA": 0,
+		"oAP": "/_assets/img/map-medium.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/map-small.png": {
+		"ft": 32768,
+		"iS": 60326,
+		"oA": 0,
+		"oAP": "/_assets/img/map-small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/media-brochure.jpg": {
+		"ft": 16384,
+		"iS": 36033,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/media-brochure.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/media-form.jpg": {
+		"ft": 16384,
+		"iS": 6288,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/media-form.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/mountains.jpg": {
+		"ft": 16384,
+		"iS": 629255,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/mountains.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/next.png": {
+		"ft": 32768,
+		"iS": 1232,
+		"oA": 0,
+		"oAP": "/_assets/img/next.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/no-image.jpg": {
+		"ft": 16384,
+		"iS": 5930,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/no-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/owner-evans.jpg": {
+		"ft": 16384,
+		"iS": 38637,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/owner-evans.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/owner-jenkins.jpg": {
+		"ft": 16384,
+		"iS": 21626,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/owner-jenkins.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/owner-miller.jpg": {
+		"ft": 16384,
+		"iS": 36179,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/owner-miller.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/owner-powers.jpg": {
+		"ft": 16384,
+		"iS": 23841,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/owner-powers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/pattern-dark.png": {
+		"ft": 32768,
+		"iS": 1239,
+		"oA": 0,
+		"oAP": "/_assets/img/pattern-dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/pattern.png": {
+		"ft": 32768,
+		"iS": 1089,
+		"oA": 0,
+		"oAP": "/_assets/img/pattern.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/photo-casting.jpg": {
+		"ft": 16384,
+		"iS": 50272,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/photo-casting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/pink-salmon.jpg": {
+		"ft": 16384,
+		"iS": 436799,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/pink-salmon.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/pippens.jpg": {
+		"ft": 16384,
+		"iS": 116046,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/pippens.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/plus.png": {
+		"ft": 32768,
+		"iS": 1564,
+		"oA": 0,
+		"oAP": "/_assets/img/plus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/prev.png": {
+		"ft": 32768,
+		"iS": 1242,
+		"oA": 0,
+		"oAP": "/_assets/img/prev.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/rates.jpg": {
+		"ft": 16384,
+		"iS": 175035,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/rates.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slide-change.jpg": {
+		"ft": 16384,
+		"iS": 423986,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slide-change.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slide-curbside.jpg": {
+		"ft": 16384,
+		"iS": 224654,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slide-curbside.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slide-local.jpg": {
+		"ft": 16384,
+		"iS": 216972,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slide-local.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slide-powerlifting.jpg": {
+		"ft": 16384,
+		"iS": 311650,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slide-powerlifting.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slide-rainbow.jpg": {
+		"ft": 16384,
+		"iS": 277416,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slide-rainbow.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slide-remote.jpg": {
+		"ft": 16384,
+		"iS": 319436,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slide-remote.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slide-room.jpg": {
+		"ft": 16384,
+		"iS": 332763,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slide-room.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slider.jpg": {
+		"ft": 16384,
+		"iS": 15534,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slider.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/bows/bows-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 1816991,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/bows/bows-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/bows/bows-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 358156,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/bows/bows-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/bows/bows-large.jpg": {
+		"ft": 16384,
+		"iS": 522880,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/bows/bows-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/bows/bows-medium.jpg": {
+		"ft": 16384,
+		"iS": 117039,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/bows/bows-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/bows/bows-small.jpg": {
+		"ft": 16384,
+		"iS": 37409,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/bows/bows-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/curbside/curbside-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 1552911,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/curbside/curbside-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/curbside/curbside-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 311853,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/curbside/curbside-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/curbside/curbside-large.jpg": {
+		"ft": 16384,
+		"iS": 458907,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/curbside/curbside-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/curbside/curbside-medium.jpg": {
+		"ft": 16384,
+		"iS": 90396,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/curbside/curbside-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/curbside/curbside-small.jpg": {
+		"ft": 16384,
+		"iS": 26129,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/curbside/curbside-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/lifting/lifting-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 2090840,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/lifting/lifting-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/lifting/lifting-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 514541,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/lifting/lifting-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/lifting/lifting-large.jpg": {
+		"ft": 16384,
+		"iS": 734827,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/lifting/lifting-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/lifting/lifting-medium.jpg": {
+		"ft": 16384,
+		"iS": 160730,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/lifting/lifting-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/lifting/lifting-small.jpg": {
+		"ft": 16384,
+		"iS": 46419,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/lifting/lifting-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/local/local-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 920250,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/local/local-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/local/local-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 136412,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/local/local-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/local/local-large.jpg": {
+		"ft": 16384,
+		"iS": 203866,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/local/local-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/local/local-medium.jpg": {
+		"ft": 16384,
+		"iS": 46845,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/local/local-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/local/local-small.jpg": {
+		"ft": 16384,
+		"iS": 17149,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/local/local-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/remote/remote-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 2113724,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/remote/remote-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/remote/remote-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 480884,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/remote/remote-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/remote/remote-large.jpg": {
+		"ft": 16384,
+		"iS": 699811,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/remote/remote-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/remote/remote-medium.jpg": {
+		"ft": 16384,
+		"iS": 147199,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/remote/remote-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/remote/remote-small.jpg": {
+		"ft": 16384,
+		"iS": 44549,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/remote/remote-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/room/room-extralarge.jpg": {
+		"ft": 16384,
+		"iS": 3079871,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/room/room-extralarge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/room/room-extramedium.jpg": {
+		"ft": 16384,
+		"iS": 520781,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/room/room-extramedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/room/room-large.jpg": {
+		"ft": 16384,
+		"iS": 780676,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/room/room-large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/room/room-medium.jpg": {
+		"ft": 16384,
+		"iS": 160125,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/room/room-medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/slides/room/room-small.jpg": {
+		"ft": 16384,
+		"iS": 50778,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/slides/room/room-small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/sprite.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/img/sprite.psd",
+		"oF": 0
+		},
+	"/_assets/img/staff-baker.jpg": {
+		"ft": 16384,
+		"iS": 43008,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/staff-baker.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/staff-baldwin.jpg": {
+		"ft": 16384,
+		"iS": 79455,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/staff-baldwin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/staff-boschma.jpg": {
+		"ft": 16384,
+		"iS": 24295,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/staff-boschma.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/staff-cochran.jpg": {
+		"ft": 16384,
+		"iS": 31022,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/staff-cochran.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/staff-digger.jpg": {
+		"ft": 16384,
+		"iS": 22609,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/staff-digger.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/staff-kern.jpg": {
+		"ft": 16384,
+		"iS": 41024,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/staff-kern.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/staff-lincecum.jpg": {
+		"ft": 16384,
+		"iS": 40449,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/staff-lincecum.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/staff-pippen-j.jpg": {
+		"ft": 16384,
+		"iS": 60004,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/staff-pippen-j.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/staff-pippen-k.jpg": {
+		"ft": 16384,
+		"iS": 57756,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/staff-pippen-k.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/staff-rogers.jpg": {
+		"ft": 16384,
+		"iS": 39053,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/staff-rogers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/staff-thurley.jpg": {
+		"ft": 16384,
+		"iS": 85226,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/staff-thurley.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/staff-yengo.jpg": {
+		"ft": 16384,
+		"iS": 32528,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/staff-yengo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/temp-fisherman.png": {
+		"ft": 32768,
+		"iS": 30046,
+		"oA": 0,
+		"oAP": "/_assets/img/temp-fisherman.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/temp-map.png": {
+		"ft": 32768,
+		"iS": 41200,
+		"oA": 0,
+		"oAP": "/_assets/img/temp-map.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/testimonial.jpg": {
+		"ft": 16384,
+		"iS": 12801,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/testimonial.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/twitter.png": {
+		"ft": 32768,
+		"iS": 3370,
+		"oA": 0,
+		"oAP": "/_assets/img/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/img/video-above-illiamna.jpg": {
+		"ft": 16384,
+		"iS": 23635,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/video-above-illiamna.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/video-bear.jpg": {
+		"ft": 16384,
+		"iS": 21020,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/video-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/video-fishing-bear.jpg": {
+		"ft": 16384,
+		"iS": 10733,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/video-fishing-bear.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/video-fishing.jpg": {
+		"ft": 16384,
+		"iS": 19986,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/video-fishing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/video-interview.jpg": {
+		"ft": 16384,
+		"iS": 22724,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/video-interview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/video-jet-sleding.jpg": {
+		"ft": 16384,
+		"iS": 18280,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/video-jet-sleding.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/video-salmon-program.jpg": {
+		"ft": 16384,
+		"iS": 26537,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/video-salmon-program.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/video-sockeye.jpg": {
+		"ft": 16384,
+		"iS": 25211,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/video-sockeye.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/video-trout.jpg": {
+		"ft": 16384,
+		"iS": 21884,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/img/video-trout.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/img/youtube.png": {
+		"ft": 32768,
+		"iS": 3055,
+		"oA": 0,
+		"oAP": "/_assets/img/youtube.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/_assets/inc/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/inc/footer.php",
+		"oF": 0
+		},
+	"/_assets/inc/head.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/inc/head.php",
+		"oF": 0
+		},
+	"/_assets/inc/navigation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/inc/navigation.php",
+		"oF": 0
+		},
+	"/_assets/inc/subpage-header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/inc/subpage-header.php",
+		"oF": 0
+		},
+	"/_assets/js/faq.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/faq-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/instafeed.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/instafeed-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/jquery.chosen.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/jquery.chosen.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/jquery.fancybox.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/jquery.fancybox-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/jquery.flexslider.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/jquery.flexslider-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/jquery.isotope.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/jquery.isotope.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/jquery.lazyload.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/jquery.lazyload-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/jquery.maskedinput.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/jquery.maskedinput-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/main-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/media.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/media-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/min/faq-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/min/faq-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/min/jquery.fancybox-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/min/jquery.fancybox-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/min/jquery.flexslider-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/min/jquery.flexslider-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/min/main-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/min/main-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/min/media-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/min/media-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/min/navstyler-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/min/navstyler-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/min/prepare-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/min/prepare-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/min/touchpunch-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/min/touchpunch-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/picturefill.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/picturefill-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/prepare.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/prepare-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/js/touchpunch.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/js/touchpunch-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/about/fleet.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/about/fleet.php",
+		"oF": 0
+		},
+	"/about/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/about/index.php",
+		"oF": 0
+		},
+	"/about/legacy.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/about/legacy.php",
+		"oF": 0
+		},
+	"/about/lodges.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/about/lodges.php",
+		"oF": 0
+		},
+	"/about/owners.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/about/owners.php",
+		"oF": 0
+		},
+	"/about/staff.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/about/staff.php",
+		"oF": 0
+		},
+	"/careers.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/careers.php",
+		"oF": 0
+		},
+	"/contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/contact.php",
+		"oF": 0
+		},
+	"/downloads/brochure.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/downloads/brochure.pdf",
+		"oF": 0
+		},
+	"/downloads/contact-form.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/downloads/contact-form.pdf",
+		"oF": 0
+		},
+	"/emails/031815/031815.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/emails/031815/031815.html",
+		"oF": 0
+		},
+	"/emails/031815/adventure.jpg": {
+		"ft": 16384,
+		"iS": 25349,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/emails/031815/adventure.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/emails/031815/chum-salmon.png": {
+		"ft": 32768,
+		"iS": 14938,
+		"oA": 0,
+		"oAP": "/emails/031815/chum-salmon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/031815/custom.jpg": {
+		"ft": 16384,
+		"iS": 72714,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/emails/031815/custom.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/emails/031815/experience.jpg": {
+		"ft": 16384,
+		"iS": 54078,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/emails/031815/experience.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/emails/031815/facebook.png": {
+		"ft": 32768,
+		"iS": 1378,
+		"oA": 0,
+		"oAP": "/emails/031815/facebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/031815/fish.jpg": {
+		"ft": 16384,
+		"iS": 79577,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/emails/031815/fish.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/emails/031815/google.png": {
+		"ft": 32768,
+		"iS": 2003,
+		"oA": 0,
+		"oAP": "/emails/031815/google.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/031815/hero.jpg": {
+		"ft": 16384,
+		"iS": 408384,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/emails/031815/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/emails/031815/instagram.png": {
+		"ft": 32768,
+		"iS": 2452,
+		"oA": 0,
+		"oAP": "/emails/031815/instagram.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/031815/lodge.jpg": {
+		"ft": 16384,
+		"iS": 51037,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/emails/031815/lodge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/emails/031815/logo-angry-eagle.png": {
+		"ft": 32768,
+		"iS": 10335,
+		"oA": 0,
+		"oAP": "/emails/031815/logo-angry-eagle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/031815/logo-rainbow-bay.png": {
+		"ft": 32768,
+		"iS": 8618,
+		"oA": 0,
+		"oAP": "/emails/031815/logo-rainbow-bay.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/031815/logo.png": {
+		"ft": 32768,
+		"iS": 21488,
+		"oA": 0,
+		"oAP": "/emails/031815/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/031815/news.png": {
+		"ft": 32768,
+		"iS": 2674,
+		"oA": 0,
+		"oAP": "/emails/031815/news.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/031815/pink-salmon.png": {
+		"ft": 32768,
+		"iS": 10081,
+		"oA": 0,
+		"oAP": "/emails/031815/pink-salmon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/031815/rainbow-trout.png": {
+		"ft": 32768,
+		"iS": 14834,
+		"oA": 0,
+		"oAP": "/emails/031815/rainbow-trout.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/031815/twitter.png": {
+		"ft": 32768,
+		"iS": 1705,
+		"oA": 0,
+		"oAP": "/emails/031815/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/031815/weather.jpg": {
+		"ft": 16384,
+		"iS": 91235,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/emails/031815/weather.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/emails/031815/youtube.png": {
+		"ft": 32768,
+		"iS": 1617,
+		"oA": 0,
+		"oAP": "/emails/031815/youtube.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/og-image.jpg": {
+		"ft": 16384,
+		"iS": 297927,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/emails/og-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/emails/signature/facebook.png": {
+		"ft": 32768,
+		"iS": 1271,
+		"oA": 0,
+		"oAP": "/emails/signature/facebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/signature/google.png": {
+		"ft": 32768,
+		"iS": 1642,
+		"oA": 0,
+		"oAP": "/emails/signature/google.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/signature/instagram.png": {
+		"ft": 32768,
+		"iS": 1548,
+		"oA": 0,
+		"oAP": "/emails/signature/instagram.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/signature/logo.png": {
+		"ft": 32768,
+		"iS": 13530,
+		"oA": 0,
+		"oAP": "/emails/signature/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/signature/signature.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/emails/signature/signature.html",
+		"oF": 0
+		},
+	"/emails/signature/twitter.png": {
+		"ft": 32768,
+		"iS": 1372,
+		"oA": 0,
+		"oAP": "/emails/signature/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/signature/youtube.png": {
+		"ft": 32768,
+		"iS": 1328,
+		"oA": 0,
+		"oAP": "/emails/signature/youtube.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/emails/twitter-card.jpg": {
+		"ft": 16384,
+		"iS": 22500,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/emails/twitter-card.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/faq.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/faq.php",
+		"oF": 0
+		},
+	"/galleries.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/galleries.php",
+		"oF": 0
+		},
+	"/home.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/home.php",
+		"oF": 0
+		},
+	"/lightboxes/articles/guides-report.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/articles/guides-report.php",
+		"oF": 0
+		},
+	"/lightboxes/articles/igors-article.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/articles/igors-article.pdf",
+		"oF": 0
+		},
+	"/lightboxes/galleries/arctic-char.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/arctic-char.php",
+		"oF": 0
+		},
+	"/lightboxes/galleries/chum-salmon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/chum-salmon.php",
+		"oF": 0
+		},
+	"/lightboxes/galleries/grayling.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/grayling.php",
+		"oF": 0
+		},
+	"/lightboxes/galleries/king-salmon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/king-salmon.php",
+		"oF": 0
+		},
+	"/lightboxes/galleries/lake-clark.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/lake-clark.php",
+		"oF": 0
+		},
+	"/lightboxes/galleries/lake-iliamna.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/lake-iliamna.php",
+		"oF": 0
+		},
+	"/lightboxes/galleries/lake-trout.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/lake-trout.php",
+		"oF": 0
+		},
+	"/lightboxes/galleries/northern-pike.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/northern-pike.php",
+		"oF": 0
+		},
+	"/lightboxes/galleries/pink-salmon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/pink-salmon.php",
+		"oF": 0
+		},
+	"/lightboxes/galleries/rainbow-trout.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/rainbow-trout.php",
+		"oF": 0
+		},
+	"/lightboxes/galleries/silver-salmon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/silver-salmon.php",
+		"oF": 0
+		},
+	"/lightboxes/galleries/sockeye-salmon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/sockeye-salmon.php",
+		"oF": 0
+		},
+	"/lightboxes/galleries/wildlife.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/galleries/wildlife.php",
+		"oF": 0
+		},
+	"/lightboxes/itinerary.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/itinerary.php",
+		"oF": 0
+		},
+	"/lightboxes/safety-information.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/safety-information.php",
+		"oF": 0
+		},
+	"/lightboxes/sportfishing/arctic-char.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/sportfishing/arctic-char.php",
+		"oF": 0
+		},
+	"/lightboxes/sportfishing/arctic-grayling.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/sportfishing/arctic-grayling.php",
+		"oF": 0
+		},
+	"/lightboxes/sportfishing/chum-salmon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/sportfishing/chum-salmon.php",
+		"oF": 0
+		},
+	"/lightboxes/sportfishing/king-salmon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/sportfishing/king-salmon.php",
+		"oF": 0
+		},
+	"/lightboxes/sportfishing/lake-trout.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/sportfishing/lake-trout.php",
+		"oF": 0
+		},
+	"/lightboxes/sportfishing/northern-pike.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/sportfishing/northern-pike.php",
+		"oF": 0
+		},
+	"/lightboxes/sportfishing/pink-salmon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/sportfishing/pink-salmon.php",
+		"oF": 0
+		},
+	"/lightboxes/sportfishing/rainbow-trout.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/sportfishing/rainbow-trout.php",
+		"oF": 0
+		},
+	"/lightboxes/sportfishing/silver-salmon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/sportfishing/silver-salmon.php",
+		"oF": 0
+		},
+	"/lightboxes/sportfishing/sockeye-salmon.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/sportfishing/sockeye-salmon.php",
+		"oF": 0
+		},
+	"/lightboxes/staff/baker.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/staff/baker.php",
+		"oF": 0
+		},
+	"/lightboxes/staff/baldwin.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/staff/baldwin.php",
+		"oF": 0
+		},
+	"/lightboxes/staff/boschma.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/staff/boschma.php",
+		"oF": 0
+		},
+	"/lightboxes/staff/cochran.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/staff/cochran.php",
+		"oF": 0
+		},
+	"/lightboxes/staff/digger.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/staff/digger.php",
+		"oF": 0
+		},
+	"/lightboxes/staff/lincecum.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/staff/lincecum.php",
+		"oF": 0
+		},
+	"/lightboxes/staff/rogers.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/staff/rogers.php",
+		"oF": 0
+		},
+	"/lightboxes/staff/thurley.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/staff/thurley.php",
+		"oF": 0
+		},
+	"/lightboxes/staff/yengo.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/staff/yengo.php",
+		"oF": 0
+		},
+	"/lightboxes/video/above-illiamna.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/video/above-illiamna.php",
+		"oF": 0
+		},
+	"/lightboxes/video/adventure-starts-here.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/video/adventure-starts-here.php",
+		"oF": 0
+		},
+	"/lightboxes/video/bear.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/video/bear.php",
+		"oF": 0
+		},
+	"/lightboxes/video/fishing-bear.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/video/fishing-bear.php",
+		"oF": 0
+		},
+	"/lightboxes/video/fishing.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/video/fishing.php",
+		"oF": 0
+		},
+	"/lightboxes/video/interview.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/video/interview.php",
+		"oF": 0
+		},
+	"/lightboxes/video/jet-sleding.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/video/jet-sleding.php",
+		"oF": 0
+		},
+	"/lightboxes/video/salmon-program.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/video/salmon-program.php",
+		"oF": 0
+		},
+	"/lightboxes/video/sockeye.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/lightboxes/video/sockeye.php",
+		"oF": 0
+		},
+	"/plan/equipment.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/plan/equipment.php",
+		"oF": 0
+		},
+	"/plan/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/plan/index.php",
+		"oF": 0
+		},
+	"/plan/itinerary.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/plan/itinerary.php",
+		"oF": 0
+		},
+	"/plan/prepare.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/plan/prepare.php",
+		"oF": 0
+		},
+	"/plan/trip.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/plan/trip.php",
+		"oF": 0
+		},
+	"/rates.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/rates.php",
+		"oF": 0
+		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/recreation/geography.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/recreation/geography.php",
+		"oF": 0
+		},
+	"/recreation/hiking.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/recreation/hiking.php",
+		"oF": 0
+		},
+	"/recreation/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/recreation/index.php",
+		"oF": 0
+		},
+	"/recreation/retreats.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/recreation/retreats.php",
+		"oF": 0
+		},
+	"/recreation/sportfishing.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/recreation/sportfishing.php",
+		"oF": 0
+		},
+	"/removed/client-photos/login.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/removed/client-photos/login.php",
+		"oF": 0
+		},
+	"/removed/connect.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/removed/connect.php",
+		"oF": 0
+		},
+	"/removed/removed-facebook-feed.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/removed/removed-facebook-feed.php",
+		"oF": 0
+		},
+	"/removed/removed-index-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/removed/removed-index-page.php",
+		"oF": 0
+		},
+	"/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/robots.txt",
+		"oF": 0
+		},
+	"/sitemap.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/sitemap.xml",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 571176176.40050602,
+	"displayValue": "angry-eagle-wp",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-ive",
+	"iconImageWasSetByUser": 0
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"destructuring": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"dotall-regex": {
+			"active": 0
+			},
+		"duplicate-keys": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"for-of": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"reserved-words": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"template-literals": {
+			"active": 0
+			},
+		"throw-expressions": {
+			"active": 0
+			},
+		"typeof-symbol": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
+			}
+		},
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always', 'ignoreDestructuring': false}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'considerPropertyDescriptor': false, 'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always', {'generators': 'always'}"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-between-class-members": {
+			"active": 0,
+			"optionString": "'always', {exceptAfterSingleLine: false}"
+			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 1,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': true}"
+			},
+		"no-self-compare": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": "{'allowAtRootLevel': false}"
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-yield": {
+			"active": 1,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http://localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"shouldRunCacheBuster": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 3,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
+		"enableJavascript": 0,
+		"ieCompatibility": 0,
+		"mathStyle": 0,
+		"outputStyle": 0,
+		"rewriteURLStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"removeComments": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
+	"sourceFolderName": "source",
+	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare_returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"braces": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"collapse_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"hoist_props": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"html5_comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"indent_level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max_line_len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote_keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"shebang": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"uglifyReservedNamesString": "$,exports,require",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}

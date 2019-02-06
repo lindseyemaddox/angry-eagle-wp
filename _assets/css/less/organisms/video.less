@@ -1,0 +1,65 @@
+div.videowrap {
+	width: 100%; /* Demo only - change to whatever width is needed */
+}
+
+.videoHolder {
+	display: block;
+	width: 100%;
+	height: 0;
+	position: relative;
+	padding-top: 1px; /* adjustment for player controls or video sizing slightly off */
+	margin-top: -840px;
+}
+
+.videoHolder.header {
+	padding-bottom: 17.25%; /* 43.25% default padding equal to video height (16:9) - h / w */
+	img {
+		width: 100%;
+		/* height: 100%; */
+		background-size: cover;
+	}
+}
+
+.videoHolder div, .videoHolder embed, .videoHolder object, .videoHolder iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: -60px;	
+}
+
+.videoHolder video {
+	width: 100%;
+}
+
+/* fixes for IE5/6 */
+* html .videoHolder {
+	margin-bottom: 45px;
+	margin-bottom: 0;
+}
+
+/* fix for ie7 having an issue with 100% height */
+.videoHolder.header div, .videoHolder.header embed, .videoHolder.header object, .videoHolder.header iframe,
+.videoHolder.standard div, .videoHolder.standard embed, .videoHolder.standard object, .videoHolder.standard iframe {
+	*height: auto;
+}
+
+
+header {
+	.video-overlay {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.71);
+		top: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 1;
+		left: 0;
+	}
+}
+
+
+
+
+
