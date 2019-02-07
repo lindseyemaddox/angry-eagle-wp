@@ -8,7 +8,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="TODO: put meta here">
+	<meta name="description" content="Angry Eagle Lodge & Outfitters | Alaska's Premier Fishing">
 
 	<!--twitter card-->
 	<meta name="twitter:card" content="summary_large_image">
@@ -30,24 +30,19 @@
 	<link rel="apple-touch-icon" href="/_assets/img/apple-touch-57.png">
 
 	<!-- JavaScript -->
-	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="/_assets/js/min/main-min.js"></script>
+	<script src="_scripts/min/main-min.js"></script>
 	<script>
 		// Picture element HTML5 shiv
 		document.createElement( "picture" );
 	</script>
-	<script src="/_assets/js/picturefill.js" async></script>
+	<script src="_scripts/picturefill.js" async></script>
 
 	<!-- Stylesheets -->
-	<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
-	<link rel="stylesheet" href="/_assets/css/styles.css" media="screen">
+	<link rel="stylesheet" href="_styles/compiled.css" media="screen">
 
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Passion+One:700|Condiment|Source+Sans+Pro:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
-
-	<!--google recaptcha-->
-	<script src='https://www.google.com/recaptcha/api.js'></script>
 
 	<!--google analytics-->
 	<script>

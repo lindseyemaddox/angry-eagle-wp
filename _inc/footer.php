@@ -2,7 +2,7 @@
 
 			<div class="inner" itemscope itemtype="http://schema.org/LodgingBusiness">
 
-				<h2 class="alt">How Remote Is <span itemprop="name">Angry Eagle</span>?</h3>
+				<h2 class="alt">How Remote <span>Is</span> <span itemprop="name">Angry Eagle</span>?</h3>
 
 				<div class="map" itemscope itemtype="http://schema.org/Map">
 
@@ -50,7 +50,7 @@
 		    $('.fancybox').fancybox();
 		  });
 		</script>
-		<script src="/_assets/js/jquery.fancybox.js"></script>
-		<script src="/_assets/js/touchpunch.js"></script>
+		<script src="/_scripts/jquery.fancybox.js"></script>
+		<script src="/_scripts/touchpunch.js"></script>
 	</body>
 </html>

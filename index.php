@@ -1,9 +1,9 @@
-<?php require_once('_assets/inc/head.php'); // HTTP head?>
-<title>Angry Eagle Lodge & Outfitters | Alaska's Premier Fishing</title>
+<?php include('_inc/head.php'); // HTTP head?>
 
 <div class="index-nav">
-<?php require_once('_assets/inc/navigation.php'); //navigation?>
+  <?php include('_inc/navigation.php'); //navigation?>
 </div><!--index-nav-->
+
 <header>
 
     <div class="slider">
@@ -97,7 +97,7 @@
             		<div class="tag">
             			<p>No Need to Order <span>Room Service</span></p>
             		</div>
-  	    	    
+
                 <picture class="picturefill">
                   <!--[if IE 9]><video style="display: none;"><![endif]-->
                   <source srcset="/_assets/img/slides/room/room-large.jpg, /_assets/img/slides/room/room-extralarge.jpg 2x" media="(min-width: 2500px)">
@@ -325,16 +325,6 @@
   });
 </script>
 
-<script src="/_assets/js/jquery.flexslider.js?ckcachebust=340e0117e10a928f9546a7b540facc02"></script>
+<script src="/_scripts/jquery.flexslider.js?ckcachebust=340e0117e10a928f9546a7b540facc02"></script>
 
-<script type="text/javascript">
-  $(document).ready(function() {
-    $(".fancybox")
-        .fancybox({
-            padding : 0
-        });
-  });
-</script>
-<script src="/_assets/js/jquery.fancybox.js?ckcachebust=e6b7419862a3aa505ca66453b1dbd506"></script>
-
-<?php require_once('_assets/inc/footer.php'); // footer, close body and html?>
+<?php include('_inc/footer.php'); ?>
