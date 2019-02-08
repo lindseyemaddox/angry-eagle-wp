@@ -4,18 +4,17 @@ section.pattern
 	&.dark
 		background: url(/_assets/img/pattern-dark.png) repeat left top transparent
 
-
-
 section#bgFixed
 	background-size: cover
 	width: 100%
 	height: 200px
+
 	&.subpage
 		height: auto
 		padding: 77px 0 65px
+
 		p
 			color: #fff
-
 
 	&.mountains
 		background-image: url(/_assets/img/backgrounds/mountains/mountains-large.jpg)
@@ -56,10 +55,9 @@ section#bgFixed
 	&.media
 		background-image: url(/_assets/img/backgrounds/wall/wall-extralarge.jpg)
 
-
-
 section#testimonials
 	padding: 60px 0
+
 	h2
 		padding: 0px 0 65px
 
@@ -67,6 +65,7 @@ section#testimonials
 		display: inline-block
 		width: 43%
 		margin: 0 3% 60px
+
 		img
 			display: inline-block
 			width: 25%
@@ -74,7 +73,7 @@ section#testimonials
 			vertical-align: top
 
 		p
-			ssp-normal
+			primary-font($regular)
 			font-size: 0.7777777777777777em
 			line-height: 1.2em
 			color: $brown
@@ -82,23 +81,22 @@ section#testimonials
 			width: 71%
 
 		h6
-			passion
+			$secondary-font()
 			font-size: 1em
 			color: $green
 			display: block
 			width: 100%
 			text-align: right
 
-
-
-
 section#three-group
 	padding: 70px 0 100px
+
 	article
 		display: inline-block
 		vertical-align: top
 		width: 30%
 		margin: 0 1.3%
+
 		[class^="icon-"], [class*=" icon-"]
 			color: $brown
 			font-size: 3em
@@ -107,7 +105,7 @@ section#three-group
 			margin-bottom: 20px
 
 		h3
-			passion()
+			headline-font()
 			padding-bottom: 20px
 			text-align: center
 			text-transform: uppercase
@@ -116,20 +114,17 @@ section#three-group
 			text-align: center
 			padding-bottom: 30px
 
-
-
-
-
 section#four-group
 	padding: 70px 0 100px
+
 	.btn-container
 		margin: 30px 0 10px
 		bottom: 20px
 		left: 0
 		position: absolute
+
 		.btn
 			width: 80%
-
 
 	article.media-item
 		height: 455px
@@ -140,12 +135,14 @@ section#four-group
 		padding: 22px 2%
 		display: inline-block
 		vertical-align: top
+
 		span
 			display: block
 			margin: 0 auto
 			color: #fff
 			width: 36px
 			font-size: 1.5em
+
 			&[class^="icon-"], [class*=" icon-"]
 				position: absolute
 				top: 40%
@@ -154,9 +151,8 @@ section#four-group
 				margin-left: -18px
 				font-size: 2em
 
-
 		p
-			ssp-light()
+			primary-font($light)
 			font-size: 0.7777777777777777em
 			line-height: 1.2857142857142856em
 			color: #fff
@@ -165,6 +161,7 @@ section#four-group
 
 		a.video-link
 			position: relative
+
 			&:hover
 				img
 					opacity: .8
@@ -172,8 +169,6 @@ section#four-group
 				span
 					color: $white
 					transition: color 400ms ease
-
-
 
 		img
 			width: 100%
