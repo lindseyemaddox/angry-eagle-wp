@@ -6,7 +6,6 @@
 
 				<div class="map" itemscope itemtype="http://schema.org/Map">
 
-
 				</div><!--right-col-->
 
 				<p class="contact">For inquiries and reservations, <a href="mailto:rod@angryeagle.com">contact Rod Thurley</a>.</p>

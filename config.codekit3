@@ -3493,6 +3493,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/_assets/img/pattern-dot.png": {
+		"ft": 32768,
+		"iS": 6854,
+		"oA": 0,
+		"oAP": "/_assets/img/pattern-dot.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/_assets/img/pattern.png": {
 		"ft": 32768,
 		"iS": 1089,

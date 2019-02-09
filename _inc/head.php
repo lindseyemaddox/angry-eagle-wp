@@ -30,8 +30,8 @@
 	<link rel="apple-touch-icon" href="/_assets/img/apple-touch-57.png">
 
 	<!-- JavaScript -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="_scripts/min/main-min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="_scripts/main.js"></script>
 	<script>
 		// Picture element HTML5 shiv
 		document.createElement( "picture" );
