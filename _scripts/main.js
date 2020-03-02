@@ -1,9 +1,7 @@
-// JavaScript Document
 
 // set initial variables
 var $showNav,
 	$nav;
-
 
 // function to set dom vars, etc that will not change
 function initVars() {
@@ -24,8 +22,6 @@ function showDrop(){
 	});
 }
 
-
-
 function showNav(){
 	$showNav.click(function(){
 			$nav.toggleClass('expanded');
@@ -33,13 +29,10 @@ function showNav(){
 	});
 }
 
-
-
 function firstLoad() {
 	initVars();
 	showDrop();
 	showNav();
-	initPlaceholders();
 }
 
 $(function() {

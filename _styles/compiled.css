@@ -579,7 +579,7 @@ nav span#nav {
 nav div.logo {
   margin-left: -84px;
   display: inline-block;
-  width: 36%;
+  width: 30%;
   position: absolute;
 }
 nav div.logo img {
@@ -602,16 +602,21 @@ nav > ul:after {
 }
 nav > ul li {
   display: inline-block;
+  font-size: 1.1em;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-size: 0.69em;
+  font-family: 'Passion One', 'Arial', sans-serif;
+  line-height: 1.5em;
   margin-right: 30px;
+  padding: 13px 0;
+  text-transform: uppercase;
   vertical-align: top;
-  margin-top: 13px;
 }
 nav > ul li .transition,
 nav > ul li:last-child {
   margin-right: 0;
+}
+nav > ul li:first-child {
+  margin-left: 30px;
 }
 nav > ul li span {
   position: relative;
@@ -719,24 +724,22 @@ header div.tag:before {
 header div.tag.change p span {
   letter-spacing: 0;
 }
-header div.tag p .condiment,
-header div.tag p color: #fff,
-header div.tag p font-size: 2em,
-header div.tag p line-height: 1.5em,
-header div.tag p text-align: center,
-header div.tag p margin-top: 20px,
+header div.tag p {
+  color: #fff;
+  font-family: 'Condiment', cursive;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: center;
+  margin-top: 20px;
+}
 header div.tag p span {
   display: block;
+  font-family: 'Passion One', 'Arial', sans-serif;
+  line-height: 1.5em;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 2.3em;
 }
-header div.tag p .condiment a,
-header div.tag p color: #fff a,
-header div.tag p font-size: 2em a,
-header div.tag p line-height: 1.5em a,
-header div.tag p text-align: center a,
-header div.tag p margin-top: 20px a,
 header div.tag p span a {
   color: #fff;
   text-decoration: none;
