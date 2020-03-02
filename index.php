@@ -140,7 +140,23 @@
 
 </section><!--pattern-->
 
-<section id="bgFixed" class="mountains" role="img" aria-label="beautiful field with a stream and mountain in the background"></section>
+<section id="bgVideoFixed" role="video" aria-label="underwater shot of beautiful pink salmon">
+  <!-- Start EasyHtml5Video.com BODY section -->
+  <style type="text/css">.easyhtml5video .eh5v_script{display:none}</style>
+  <div class="easyhtml5video" style="position:relative;max-width:1920px;"><video  autoplay="autoplay" poster="_assets/video/underwater.jpg" style="width:100%" loop="loop" onended="var v=this;setTimeout(function(){v.play()},300)">
+  <source src="_assets/video/underwater.m4v" type="video/mp4" />
+  <source src="_assets/video/underwater.webm" type="video/webm" />
+  <object type="application/x-shockwave-flash" data="_assets/video/flashfox.swf" width="1920" height="1080" style="position:relative;">
+  <param name="movie" value="_assets/video/flashfox.swf" />
+  <param name="allowFullScreen" value="true" />
+  <param name="flashVars" value="autoplay=true&controls=false&fullScreenEnabled=false&posterOnEnd=true&loop=true&poster=_assets/video/underwater.jpg&src=underwater.m4v" />
+  <embed src="_assets/video/flashfox.swf" width="1920" height="1080" style="position:relative;"  flashVars="autoplay=true&controls=false&fullScreenEnabled=false&posterOnEnd=true&loop=true&poster=_assets/video/underwater.jpg&src=underwater.m4v"	allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
+  <img alt="underwater" src="_assets/video/underwater.jpg" style="position:absolute;left:0;" width="100%" title="Video playback is not supported by your browser" />
+  </object>
+  </video><div class="eh5v_script"><a href="http://easyhtml5video.com">html5 video converter</a> by EasyHtml5Video.com v3.9.1</div></div>
+  <script src="_assets/video/html5ext.js" type="text/javascript"></script>
+  <!-- End EasyHtml5Video.com BODY section -->
+</section>
 
 <section id="three-group">
 
