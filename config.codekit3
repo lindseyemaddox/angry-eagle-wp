@@ -5704,6 +5704,134 @@
 		"oAP": "/recreation/sportfishing.php",
 		"oF": 0
 		},
+	"/removed/client-photos/login.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/removed/client-photos/login.php",
+		"oF": 0
+		},
+	"/removed/connect.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/removed/connect.php",
+		"oF": 0
+		},
+	"/removed/min/faq-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/removed/min/faq-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/removed/min/jquery.fancybox-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/removed/min/jquery.fancybox-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/removed/min/jquery.flexslider-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/removed/min/jquery.flexslider-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/removed/min/main-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/removed/min/main-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/removed/min/media-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/removed/min/media-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/removed/min/navstyler-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/removed/min/navstyler-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/removed/min/prepare-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/removed/min/prepare-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/removed/min/touchpunch-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/removed/min/touchpunch-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/removed/removed-facebook-feed.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/removed/removed-facebook-feed.php",
+		"oF": 0
+		},
+	"/removed/removed-index-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/removed/removed-index-page.php",
+		"oF": 0
+		},
+	"/removed/sitemap.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/removed/sitemap.xml",
+		"oF": 0
+		},
 	"/robots.txt": {
 		"cB": 0,
 		"ft": 8192,
