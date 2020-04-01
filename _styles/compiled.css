@@ -234,7 +234,6 @@ h3 {
   font-weight: 300;
   line-height: 1.5em;
   font-size: 1.33em;
-  line-height: 1.25em;
   color: #504e3c;
   padding-bottom: 65px;
 }
@@ -579,7 +578,7 @@ nav span#nav {
 nav div.logo {
   margin-left: -84px;
   display: inline-block;
-  width: 36%;
+  width: 30%;
   position: absolute;
 }
 nav div.logo img {
@@ -602,16 +601,21 @@ nav > ul:after {
 }
 nav > ul li {
   display: inline-block;
+  font-size: 1.1em;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-size: 0.69em;
+  font-family: 'Passion One', 'Arial', sans-serif;
+  line-height: 1.5em;
   margin-right: 30px;
+  padding: 13px 0;
+  text-transform: uppercase;
   vertical-align: top;
-  margin-top: 13px;
 }
 nav > ul li .transition,
 nav > ul li:last-child {
   margin-right: 0;
+}
+nav > ul li:first-child {
+  margin-left: 30px;
 }
 nav > ul li span {
   position: relative;
@@ -719,24 +723,22 @@ header div.tag:before {
 header div.tag.change p span {
   letter-spacing: 0;
 }
-header div.tag p .condiment,
-header div.tag p color: #fff,
-header div.tag p font-size: 2em,
-header div.tag p line-height: 1.5em,
-header div.tag p text-align: center,
-header div.tag p margin-top: 20px,
+header div.tag p {
+  color: #fff;
+  font-family: 'Condiment', cursive;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: center;
+  margin-top: 20px;
+}
 header div.tag p span {
   display: block;
+  font-family: 'Passion One', 'Arial', sans-serif;
+  line-height: 1.5em;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 2.3em;
 }
-header div.tag p .condiment a,
-header div.tag p color: #fff a,
-header div.tag p font-size: 2em a,
-header div.tag p line-height: 1.5em a,
-header div.tag p text-align: center a,
-header div.tag p margin-top: 20px a,
 header div.tag p span a {
   color: #fff;
   text-decoration: none;
@@ -914,9 +916,6 @@ section#bgFixed.subpage {
 section#bgFixed.subpage p {
   color: #fff;
 }
-section#bgFixed.mountains {
-  background-image: url("/_assets/img/backgrounds/mountains/mountains-large.jpg");
-}
 section#bgFixed.bears {
   background-image: url("/_assets/img/fixed-bears.jpg");
   background-repeat: no-repeat;
@@ -927,9 +926,6 @@ section#bgFixed.fish {
 }
 section#bgFixed.plane {
   background-image: url("/_assets/img/fixed-plane.jpg");
-}
-section#bgFixed.mountains {
-  background-image: url("/_assets/img/backgrounds/mountains/mountains-extralarge.jpg");
 }
 section#bgFixed.cooler {
   background-image: url("/_assets/img/backgrounds/cooler/cooler-extralarge.jpg");
@@ -952,6 +948,14 @@ section#bgFixed.fleet {
 }
 section#bgFixed.media {
   background-image: url("/_assets/img/backgrounds/wall/wall-extralarge.jpg");
+}
+#bgVideoFixed {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 section#testimonials {
   padding: 60px 0;
@@ -3778,9 +3782,6 @@ header .video-overlay {
   }
 }
 @media (max-width: 1250px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1250px) and (min-resolution: 192dpi) {
-  section#bgFixed.mountains {
-    background-image: url("/_assets/img/backgrounds/mountains/mountains-large.jpg");
-  }
   section#bgFixed.cooler {
     background-image: url("/_assets/img/backgrounds/cooler/cooler-large.jpg");
   }
@@ -3804,10 +3805,6 @@ header .video-overlay {
   }
 }
 @media (max-width: 1000px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 1000px) and (min-resolution: 192dpi) {
-  section#bgFixed.mountains {
-    background-image: url("/_assets/img/backgrounds/mountains/mountains-extramedium.jpg");
-    background-attachment: inherit;
-  }
   section#bgFixed.cooler {
     background-image: url("/_assets/img/backgrounds/cooler/cooler-extramedium.jpg");
   }
@@ -3831,9 +3828,6 @@ header .video-overlay {
   }
 }
 @media (max-width: 500px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 500px) and (min-resolution: 192dpi) {
-  section#bgFixed.mountains {
-    background-image: url("/_assets/img/backgrounds/mountains/mountains-medium.jpg");
-  }
   section#bgFixed.cooler {
     background-image: url("/_assets/img/backgrounds/cooler/cooler-medium.jpg");
   }
@@ -3857,9 +3851,6 @@ header .video-overlay {
   }
 }
 @media (max-width: 250px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 250px) and (min-resolution: 192dpi) {
-  section#bgFixed.mountains {
-    background-image: url("/_assets/img/backgrounds/mountains/mountains-small.jpg");
-  }
   section#bgFixed.cooler {
     background-image: url("/_assets/img/backgrounds/cooler/cooler-small.jpg");
   }
@@ -3883,9 +3874,6 @@ header .video-overlay {
   }
 }
 @media (max-width: 2500px) and (-webkit-max-device-pixel-ratio: 1.5), (max-width: 2500px) and (max-resolution: 191dpi) {
-  section#bgFixed.mountains {
-    background-image: url("/_assets/img/backgrounds/mountains/mountains-large.jpg");
-  }
   section#bgFixed.cooler {
     background-image: url("/_assets/img/backgrounds/cooler/cooler-large.jpg");
   }
@@ -3909,9 +3897,6 @@ header .video-overlay {
   }
 }
 @media (max-width: 2000px) and (-webkit-max-device-pixel-ratio: 1.5), (max-width: 2000px) and (max-resolution: 191dpi) {
-  section#bgFixed.mountains {
-    background-image: url("/_assets/img/backgrounds/mountains/mountains-extramedium.jpg");
-  }
   section#bgFixed.cooler {
     background-image: url("/_assets/img/backgrounds/cooler/cooler-extramedium.jpg");
   }
@@ -3935,9 +3920,6 @@ header .video-overlay {
   }
 }
 @media (max-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5), (max-width: 1000px) and (max-resolution: 191dpi) {
-  section#bgFixed.mountains {
-    background-image: url("/_assets/img/backgrounds/mountains/mountains-medium.jpg");
-  }
   section#bgFixed.cooler {
     background-image: url("/_assets/img/backgrounds/cooler/cooler-medium.jpg");
   }
@@ -3961,9 +3943,6 @@ header .video-overlay {
   }
 }
 @media (max-width: 500px) and (-webkit-max-device-pixel-ratio: 1.5), (max-width: 500px) and (max-resolution: 191dpi) {
-  section#bgFixed.mountains {
-    background-image: url("/_assets/img/backgrounds/mountains/mountains-small.jpg");
-  }
   section#bgFixed.cooler {
     background-image: url("/_assets/img/backgrounds/cooler/cooler-small.jpg");
   }

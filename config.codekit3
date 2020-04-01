@@ -4297,6 +4297,60 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/_assets/video/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_assets/video/.htaccess",
+		"oF": 0
+		},
+	"/_assets/video/flashfox.swf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_assets/video/flashfox.swf",
+		"oF": 0
+		},
+	"/_assets/video/html5ext.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/video/html5ext-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/video/underwater.jpg": {
+		"ft": 16384,
+		"iS": 78227,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_assets/video/underwater.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_assets/video/underwater.m4v": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_assets/video/underwater.m4v",
+		"oF": 0
+		},
+	"/_assets/video/underwater.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_assets/video/underwater.webm",
+		"oF": 0
+		},
 	"/_fonts/icomoon.eot": {
 		"cB": 0,
 		"ft": 8192,
